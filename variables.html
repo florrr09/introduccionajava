@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables</title>
+</head>
+<body>
+  <script>
+    /*var let const*/
+    let nombre = "Florencia"
+    let edad = 16;
+    document.write(nombre);
+    document.write("<br>");
+    document.write(edad);
+
+    /*Para introducir datos de parte del usuario, se puede utilizar el parametro "prompt"
+    su sintaxis es la siguiente
+    let variableEjemplo = window.prompt()*/
+    nombre = window.prompt('INGRESA TU PRIMER NOMBRE:', 'PEPE');     document.write("<br>");
+    edad = window.prompt('INGRESA TU EDAD:', '.');     document.write("<br>");
+    document.write('Mucho gusto', nombre);
+    document.write("<br>");
+    document.write('Me sorprende que tengas ', edad);
+
+    /* Para solicitar confirmaciones al usuario, se puede usar el parametro 'confirm', su sintaxis es la sgte.: 
+    let confirmacion = window.confirm(mensaje);*/
+      let confirmacion = window.confirm('Quieres ser mi amiga?');
+      console.log(confirmacion)
+
+
+
+
+
+      /*Tipos de datos de javas 
+      - Number
+      - String
+      - Booleab
+      - Valores especiales: null y undefined*
+      - BigInt (Para valores que superen el tamaño de number)
+      - Object
+
+      /
+  </script>
+</body>
+</html>
