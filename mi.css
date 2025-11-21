@@ -1,0 +1,17 @@
+p{
+    color: lightsalmon;
+    text-decoration-line: underline;
+}
+
+h1{
+text-shadow: 2px 2px salmon;
+}
+.tipografia{
+    font-family: "Times New Roman', Times, serif";
+    color:black;
+    font-size: 60px;
+}
+.tipografia2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
